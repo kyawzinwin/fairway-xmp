@@ -1,6 +1,8 @@
 name: Linux terminal installer
 
 on:
+  push:
+    branches: [codex/native-validation]
   workflow_dispatch:
 
 permissions:
